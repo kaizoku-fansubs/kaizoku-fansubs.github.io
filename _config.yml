@@ -1,0 +1,30 @@
+# Reference : https://github.com/mojombo/jekyll/wiki/Configuration
+
+# site info
+name: Kaizoku-Fansubs
+description:
+    short: Lovers of One Piece
+    long: A fan translation of the television series One Piece
+
+# news pagination information
+paginate: 10
+paginate_path: "/posts/page:num/"
+
+# permalink slugs
+permalink: /:categories/:year/:month/:day/:title/
+
+# url information
+url: http://www.felocity.com
+
+# github pages defaults
+lsi: false
+safe: true
+
+# overrides github defaults where needed
+markdown: redcarpet
+
+# language
+lang: en
+
+# tracking
+google_tracking_id: "UA-15075481-1"

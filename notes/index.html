@@ -1,0 +1,14 @@
+---
+layout: default
+title: Translation Notes
+---
+
+<p>Todo intro</p>
+
+<section>
+  <ul>
+    {% for post in site.categories.notes %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
